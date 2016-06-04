@@ -1,0 +1,54 @@
+{
+  "name": "ng2-bootstrap-daterangepicker",
+  "version": "0.0.1",
+  "description": "An Angular 2 Bootstrap date range picker wrapper",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "typings i",
+    "start": "concurrently \"npm run build\" \"npm run serve\"",
+    "build": "tsc -w -p src",
+    "serve": "lite-server",
+    "lint": "tslint src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onehungrymind/ng2-bootstrap-daterangepicker.git"
+  },
+  "keywords": [
+    "angular",
+    "2",
+    "bootstrap",
+    "daterangepicker",
+    "datepicker"
+  ],
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "bootstrap": "^3.3.6",
+    "es6-shim": "^0.35.0",
+    "jquery": "^2.2.4",
+    "moment": "^2.13.0",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "systemjs": "0.19.26",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "codelyzer": "0.0.20",
+    "concurrently": "^2.1.0",
+    "lite-server": "^2.2.0",
+    "ts-node": "^0.5.5",
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "author": "simpul@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onehungrymind/ng2-bootstrap-daterangepicker/issues"
+  },
+  "homepage": "https://github.com/onehungrymind/ng2-bootstrap-daterangepicker#readme"
+}
