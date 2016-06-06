@@ -18,21 +18,24 @@
       box-shadow: none;
     }
     .daterangepicker select {
-      -webkit-appearance: none;
       border: 0;
       background: 0;
       outline: 0;
-      font-size: 18px !important;
-      /*width: auto !important;*/
+      font-size: 14px !important;
+      cursor: pointer !important;
+      width: auto !important;
     }
-    .daterangepicker td.start-date, .daterangepicker td.end-date {
+    .daterangepicker .monthselect {
+      margin-right: 10px;
+    }
+    .daterangepicker td.start-date, .daterangepicker td.available, .daterangepicker td.end-date {
       border-radius: 20px;
     }
-    .daterangepicker td.in-range {
+    .daterangepicker td.in-range:not(.end-date) {
       background: transparent;
       color: #357ebd;
     }
-    .daterangepicker th:not(.prev, .next, .month) {
+    .daterangepicker th:not(.prev):not(.next):not(.month) {
       color: #aaa;
     }
     .week {
