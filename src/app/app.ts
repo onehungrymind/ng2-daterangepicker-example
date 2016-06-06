@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DateRangePickerDirective } from 'ng2-bootstrap-daterangepicker';
+import { DateRangePickerDirective } from 'ng2-daterangepicker';
 
 @Component({
   moduleId: module.id,
