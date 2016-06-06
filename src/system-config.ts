@@ -6,6 +6,7 @@ const barrels: string[] = [
   '@angular/platform-browser',
   '@angular/platform-browser-dynamic',
   'rxjs',
+  'ng2-bootstrap-daterangepicker',
   'app'
 ];
 
@@ -20,6 +21,7 @@ System.config({
   map: {
     '@angular': 'node_modules/@angular',
     'rxjs': 'node_modules/rxjs',
+    'ng2-bootstrap-daterangepicker': 'node_modules/ng2-bootstrap-daterangepicker',
     'main': 'main.js'
   },
   packages: cliSystemConfigPackages
